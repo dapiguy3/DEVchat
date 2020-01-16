@@ -67,7 +67,7 @@ def on_closing(event=None): ###clean exit from socket and whatnot###
 	send()
 	
 root = tkinter.Tk()  ###tkinter stuff###
-root.title("Chatter") """yeet"""
+root.title("Chatter") 
 
 messages_frame = tkinter.Frame(root) #chat frame
 my_msg = tkinter.StringVar()
